@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+:root {
+    --fontp: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --fontb: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --cor1: #fefae0;
+    --cor2: #FAEDCD;
+    --cor3: #D4A373;
+    --cor4: #28BAD1;
+    --cor5: #3FC6B7;
+    --cor6: #0c0c0c;
+    --cor7: #69dc9e;
+    --cor8: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--cor6);
+}
+
+body {
+    background-color: var(--cor6);
+    font-family: var(--fontb);
+
+}
+
+main {
+    max-width: 650px;
+    margin: 60px auto;
+    padding: 50px 5px 0 5px;
+    background-color: var(--cor7);
+    border-radius: 10px;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    margin: auto;
+    background-color: var(--cor4);
+    border-collapse: collapse;
+
+}
+
+caption {
+    margin: 10px 0;
+}
+
+tr,
+td,
+th {
+    border: 1px solid var(--cor6);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#retorno {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#retorno>a>img {
+    margin: 10px;
+}
+
+#retorno>a>img:hover {
+    color: var(--cor4);
+}
